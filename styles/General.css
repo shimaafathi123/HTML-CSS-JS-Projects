@@ -1,0 +1,14 @@
+p{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    font-family: roboto,arial;
+    margin: 0;
+    height: 3000px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  

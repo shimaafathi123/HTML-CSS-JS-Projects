@@ -1,0 +1,126 @@
+.home{
+   
+    margin-top: 200px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(150, 145, 145);
+    z-index: 900;
+}
+.hello{
+    color: rgb(150, 145, 145);
+    font-size: 25px;
+}
+.name{
+    color: rgb(107, 103, 103);
+    font-weight: bold;
+    font-size: 70px;
+}
+.job{
+    color: rgb(85, 82, 82);
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.hire{
+    background-color: rgb(255, 122, 87);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 85px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    cursor: pointer;
+
+}
+.cv{
+    background-color: rgb(85, 82, 82);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    cursor: pointer;
+
+}
+.cv:hover, .hire:hover{
+    opacity: 1;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.icon{
+    background-color: white;
+    margin-left: 12px;
+    border-radius:100%;
+    border-color: rgb(255, 122, 87);
+    border-style: solid;
+    width: 35px;
+    height: 35px;
+}
+.icon-img{
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    object-position: center;
+}
+.description{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.girl{
+    width: 400px;
+}
+.vl{
+    border-left: 2px solid rgb(88, 90, 88);
+    height: 40px;
+    margin-right: 30px;
+}
+.details{
+    background-color: white;
+    border-radius: 50px;
+    width: 600px;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 350px;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.number{
+    color: #495057;
+    font-size: 30px;
+    font-weight: bold;
+}
+.object{
+    color: #929090;
+}
